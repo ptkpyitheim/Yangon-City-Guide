@@ -1,0 +1,407 @@
+
+/***** The following is the code from Assignment 03 *****/
+/*
+html {
+  font-size:100%;
+  width:100%;
+  height:100%;
+}
+
+body {
+  background-color: whiteSmoke;
+}
+
+.page-header {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 500px;
+  background-image: url(images/karaweik_crop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top center;
+  background-attachment: fixed;
+  left: 0px;
+  top: 0px;
+  filter: grayscale(50%);
+  position: absolute;
+}
+
+.heading {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #09383E;
+  position: relative;
+}
+
+.header-logo {
+  font-size: 60px;
+  letter-spacing: 0.5em;
+  position: relative;
+}
+
+.header2-logo {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+
+.mission-statement {
+  margin-right: 50px;
+  margin-left: 90px;
+  font-size: 18px;
+  color: whiteSmoke;
+  text-align: center;
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: bolder;
+  background-color: rgb(94,90,69,0.8);
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.places {
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: "Helvetica", Sans-Serif;
+  color: black;
+}
+
+#highlights {
+  font-weight:bold;
+  letter-spacing: 1.8px;
+}
+
+#bpoints {
+  font-size: 25px;
+  margin-left: 70px;
+  margin-top: 5px;
+  font-weight:lighter;
+}
+
+#short-description {
+  margin-left: : 7px;
+  margin-top: 10px;
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.box {
+  max-width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pics {
+  position: relative;
+}
+
+.text-in-img {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 100%;
+
+  color: white;
+  font: bold 15px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+#terry-video {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#text-in-vid {
+  position:relative;
+  font-size: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #f1f1f1;
+  padding: 20px;
+}
+
+#center-table {
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+#info-head {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+#ask-for-comments {
+  font-family: "Helvetica", sans-serif;
+}
+
+.map { //Google Map
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a:hover { //Link changes color when hovered
+  color: #bb99ff;
+}
+
+input[type=text] { //formatting input form
+  margin-left: 50px;
+  width: 200px;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+input[type=text]:focus { //input form expands when focused
+  width: 250px;
+  background-color: #f5f5ef;
+}
+
+textarea { //commentbox positioning
+  background-color: #ebebe0;
+  margin-left: 50px;
+  width: 400px;
+  height: 100px;
+}
+*/
+
+/**** The following is the code for Assignment 04 ****/
+html {
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: whiteSmoke;
+  width: 100%;
+  size: 100%;
+}
+
+.navigation-bar {
+  border-radius: 50px;
+  left: 20px;
+  right: 20px;
+  height: 40px;
+  position: fixed;
+  background-color: rgb(218,165,32);
+  z-index: 1;
+}
+
+.navigation-bar a{
+  margin-top: 12px;
+  float:left;
+  width: 15%;
+  text-align: center;
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: bold;
+  color: white;
+  border-color: red;
+}
+
+.header-logo {
+  margin-top: 90px;
+  font-size: 60px;
+  letter-spacing: 0.5em;
+  position: relative;
+}
+
+.page-header {
+  min-width: 100%;
+  margin-bottom: 100px;
+  background-image: url(images/karaweik_crop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top center;
+  background-attachment: fixed;
+  filter: grayscale(50%);
+  position: relative;
+  overflow: hidden;
+}
+
+.heading {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #09383E;
+}
+
+.header-logo {
+  position: relative;
+  font-size: 60px;
+  letter-spacing: 0.5em;
+}
+
+.header2-logo {
+  position: relative;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+.mission-statement {
+  margin-right: 50px;
+  margin-left: 90px;
+  font-size: 18px;
+  color: whiteSmoke;
+  text-align: center;
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: bolder;
+  background-color: rgb(94,90,69,0.8);
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.places {
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: "Helvetica", Sans-Serif;
+  color: black;
+}
+
+#highlights {
+  font-weight:bold;
+  letter-spacing: 1.8px;
+}
+
+#bpoints {
+  font-size: 25px;
+  margin-left: 70px;
+  margin-top: 5px;
+  font-weight:lighter;
+}
+
+#short-description {
+  margin-left: : 7px;
+  margin-top: 10px;
+  font-family: "Josefin Sans",sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+/* Column view */
+.box {
+  max-width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.pics {
+  position: relative;
+}
+
+.text-in-img {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font: bold 15px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+#terry-video {
+  height: 100%;
+  width: 100%;
+}
+
+#text-in-vid {
+  border-radius: 100px;
+  position:relative;
+  font-size: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #f1f1f1;
+  padding: 20px;
+  box-shadow: 4px 5px #777777;
+}
+
+#center-table {
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+#info-head {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+#ask-for-comments {
+  margin-left: 300px;
+  font-family: "Helvetica", sans-serif;
+}
+
+.map { /*Google Map*/
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 320px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a:hover { /*Link changes color when hovered*/
+  color: #bb99ff;
+}
+
+.user-input {
+  margin-left: 320px;
+}
+
+input[type=text] { /*formatting input form*/
+  margin-left: 50px;
+  width: 200px;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+input[type=text]:focus { /*input form expands when focused*/
+  width: 250px;
+  background-color: #f5f5ef;
+}
+
+textarea { /*commentbox positioning*/
+  background-color: #ebebe0;
+  margin-left: 20px;
+  width: 500px;
+  height: 80px;
+}
